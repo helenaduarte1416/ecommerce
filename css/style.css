@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav a{
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0; 
+    width: 100%;
+}
+
+.watermark {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vw; 
+    color: rgba(0, 0, 0, 0.1); 
+    z-index: -1; 
+    pointer-events: none;
+}
